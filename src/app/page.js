@@ -1,8 +1,11 @@
 import Marquee from "react-fast-marquee";
 import Hero from "./components/Hero";
+import Feature from "./components/Feature";
 
 
-export default function Home() {
+
+export default function  Home() {
+ 
   return (
     <div >
      <Hero></Hero>
@@ -13,10 +16,10 @@ export default function Home() {
       
       <span className="mx-4 text-lg font-bold">You can choose any book you want</span>
 </Marquee>
-        <div className="container mx-auto my-8">
-          <h2 className="text-2xl font-bold mb-4">Featured Books</h2>
-          
-           </div>
+        <h1 className="font-bold text-3xl my-4">Feature Books </h1>
+        <Feature></Feature>
+
+           
         </div>
   );
 }
