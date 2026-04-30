@@ -13,7 +13,7 @@ const Hero = () => {
       <p className="py-6">
        This books are so good. You can read them and get more knowledge <br></br> about programming. We have a lot of books for you. You can choose any book you want. 
       </p>
-     <Link href="/all-books"> <button className="btn btn-primary">Get Books</button></Link>
+     <Link href="/all-books"> <button className="btn  btn-primary ">More Books</button></Link>
   </div>
 </div>
 

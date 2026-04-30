@@ -7,7 +7,7 @@ const Feature = async () => {
   const topBooks = books.slice(0, 4);
   
     return (
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 gap-4 my-10">
             {
                 topBooks.map((book) => (
                     <Book key={book.id} book={book} />
