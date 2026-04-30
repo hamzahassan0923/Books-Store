@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Emily Carter",
+    "description": "A mysterious forest hides secrets that change the lives of those who enter. A young girl uncovers truths buried for decades.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://covers.openlibrary.org/b/id/10594763-L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Mastery",
+    "author": "David Miller",
+    "description": "A complete guide to modern JavaScript, covering fundamentals to advanced concepts for building powerful web applications.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/id/10110415-L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Wonders of Space",
+    "author": "Sophia Khan",
+    "description": "Explore the vast universe, from distant galaxies to black holes, in this fascinating introduction to space science.",
+    "category": "Science",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/id/10531933-L.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Broken Dreams",
+    "author": "Liam Johnson",
+    "description": "A touching story about love, loss, and finding hope after life takes unexpected turns.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+  },
+  {
+    "id": 5,
+    "title": "React in Action",
+    "author": "Olivia Brown",
+    "description": "Learn how to build fast and dynamic user interfaces using React and modern frontend tools.",
+    "category": "Tech",
+    "available_quantity": 14,
+    "image_url": "https://covers.openlibrary.org/b/id/10507858-L.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Human Anatomy Basics",
+    "author": "Dr. Ahmed Rahman",
+    "description": "An easy-to-understand guide to the human body, its systems, and how they function together.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/id/8231990-L.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Lost Kingdom",
+    "author": "Ava Wilson",
+    "description": "A fantasy tale of a forgotten kingdom, hidden powers, and a hero destined to restore balance.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/id/10427209-L.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Node.js Essentials",
+    "author": "James Anderson",
+    "description": "Understand backend development using Node.js, including APIs, databases, and server-side logic.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/10507731-L.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Physics for Beginners",
+    "author": "Michael Lee",
+    "description": "A beginner-friendly introduction to physics concepts like motion, energy, and forces.",
+    "category": "Science",
+    "available_quantity": 11,
+    "image_url": "https://covers.openlibrary.org/b/id/10389354-L.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Whispers of the Night",
+    "author": "Charlotte Davis",
+    "description": "A suspenseful story where secrets unfold in the quiet of the night, revealing hidden truths.",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8231996-L.jpg"
+  },
+  {
+    "id": 11,
+    "title": "AI Revolution",
+    "author": "Daniel Smith",
+    "description": "Dive into artificial intelligence, its applications, and how it's shaping the future of technology.",
+    "category": "Tech",
+    "available_quantity": 13,
+    "image_url": "https://covers.openlibrary.org/b/id/10510558-L.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Climate Change Explained",
+    "author": "Nadia Hassan",
+    "description": "An insightful look at climate change, its causes, effects, and possible solutions for the future.",
+    "category": "Science",
+    "available_quantity": 15,
+    "image_url": "https://covers.openlibrary.org/b/id/10594834-L.jpg"
+  }
+]

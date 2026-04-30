@@ -1,22 +1,22 @@
-import Link from "next/link";
+import Marquee from "react-fast-marquee";
+import Hero from "./components/Hero";
 
 
 export default function Home() {
   return (
     <div >
-      <div className="hero bg-base-200 ">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    
-    <div>
-      <h1 className="text-5xl font-bold">This is our Books Store</h1>
-      <p className="py-6">
-       This books are so good. You can read them and get more knowledge about programming. We have a lot of books for you. You can choose any book you want. 
-      </p>
-     <Link href="/all-books"> <button className="btn btn-primary">Get Books</button></Link>
-  </div>
-</div>
-
-    </div>
-    </div>
+     <Hero></Hero>
+     <Marquee gradient={false} speed={50} className="bg-blue-500 text-base-content py-2">
+     
+      <span className="mx-4 text-lg font-bold">Welcome to our Book Store</span>
+      <span className="mx-4 text-lg font-bold">we have discounts 10% off all books</span>
+      
+      <span className="mx-4 text-lg font-bold">You can choose any book you want</span>
+</Marquee>
+        <div className="container mx-auto my-8">
+          <h2 className="text-2xl font-bold mb-4">Featured Books</h2>
+          
+           </div>
+        </div>
   );
 }
