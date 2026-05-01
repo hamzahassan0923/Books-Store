@@ -11,8 +11,8 @@ const BookDetails = ({ book }) => {
         
     }
     return (
-        <div className=''>
-                     <div className='flex gap-10 p-10  rounded-lg shadow-lg'>
+        <div>
+                     <div className='flex flex-col lg:flex-row gap-10 p-10  rounded-lg shadow-lg'>
                          <div className='rounded-lg overflow-hidden'>
                         <Image src={image_url} alt={title}   width={250} height={300} />
                       </div>
@@ -22,7 +22,7 @@ const BookDetails = ({ book }) => {
                         
                         <p className='mb-5'><span className='font-bold'>Category: </span><span className='font-semibold'>{category}</span></p>
                         <p className='font-bold text-xl'>Description:</p>
-                        <p className='w-md text-gray-500 mb-2'>{description}</p>
+                        <p className=' text-gray-500 mb-2'>{description}</p>
                         <p className='font-semibold text-lg'><span className='font-bold'>Available Quantity: </span>{available_quantity} Copies left</p>
         
                         <button onClick={()=>handleBorrow()}
