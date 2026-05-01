@@ -1,7 +1,14 @@
+'use client'
 import Link from 'next/link';
 import React from 'react';
+import { authClient } from '../lib/auth-client';
 
 const Navbar = () => {
+        
+  const { data: session } = authClient.useSession()
+  const user = session?.user
+  console.log(user);
+
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -30,7 +37,10 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href="/login"><button className="btn btn-active hover:bg-stone-400">Login</button></Link>
+    {user ? (<div className="flex items-center gap-2">
+    <p className='text-green-800 font-semibold'>{user ? `Welcome, ${user.name}` : ''}</p>
+    <button className="btn btn-neutral" onClick={async()=>await authClient.signOut()}>Logout</button>
+  </div>) :(<Link href="/login"><button className="btn btn-primary">Login</button></Link> ) }
   </div>
 </div>
     );
