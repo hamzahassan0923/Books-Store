@@ -1,12 +1,13 @@
 'use client'
 import React from 'react';
 import { authClient } from '../lib/auth-client';
-import Image from 'next/image';
+
 
 const ProfilePage = () => {
      const { data: session } = authClient.useSession()
-      const user = session?.user
-      console.log(user);
+      const user = session?.user;
+   
+     
 
     
 
@@ -15,11 +16,12 @@ const ProfilePage = () => {
            <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white rounded-2xl shadow-md p-7 w-80 text-center hover:shadow-lg transition">      
         <h2 className="mt-4 text-xl font-semibold text-gray-900">
-          {user.name}
+            {user ? `${user.name}` : 'No user logged in'}
         </h2>
         <p className="text-gray-500 text-sm mt-1">
-          {user.email}
-        </p></div>
+          {user ? `Email: ${user.email}` : 'Please log in to see your profile information.'}
+        </p>
+        </div>
     </div>
          
         </div>
