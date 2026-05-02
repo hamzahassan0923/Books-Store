@@ -4,6 +4,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { authClient } from '../lib/auth-client';
 import { FaEye } from 'react-icons/fa';
+import { toast, ToastContainer } from 'react-toastify';
 
 const LoginPage = () => {
      const {
@@ -33,11 +34,9 @@ const LoginPage = () => {
 });
 console.log(res,error);
      if(    error){
-        alert(error.message);
+        toast(error.message);
      }
-        if(res){
-        alert("Login successful!");
-    }
+       
 
 }
     return (
@@ -69,7 +68,7 @@ console.log(res,error);
                        </button> 
                         </fieldset>
                     </form>
-            
+            <ToastContainer />
         </div>
     );
 };

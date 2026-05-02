@@ -3,6 +3,9 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { authClient } from '../lib/auth-client';
 import { FaEye } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
+import { toast, ToastContainer } from 'react-toastify';
+
 
 
 
@@ -13,6 +16,8 @@ const RegisterPage = () => {
         watch,
         formState: { errors },
       } = useForm();
+
+      const router = useRouter();
 
       const handleGoogle = async () => {
         const data = await authClient.signIn.social({
@@ -35,11 +40,13 @@ const RegisterPage = () => {
 });
     console.log(res,error);
      if(    error){
-        alert(error.message);
+        toast(error.message);
      }
 
      if(res){
-        alert("Registration successful!");
+        toast("Registration successful!");
+      
+        router.push('/login');
      }
 
 
@@ -87,7 +94,7 @@ const RegisterPage = () => {
                     
                         </fieldset>
                     </form>
-            
+            <ToastContainer />
         </div>
         
     );
