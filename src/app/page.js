@@ -1,11 +1,34 @@
+
+
 import Marquee from "react-fast-marquee";
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
 
+// import "animate.css";
+// import { useEffect } from "react";
+
+
+
+
+
 
 
 export default function  Home() {
- 
+
+
+//    useEffect(() => {
+
+// new WOW.WOW().init();
+
+// }, []);
+
+
+
+
+
+
+
+
   return (
     <div >
      <Marquee gradient={false} speed={50} className="bg-gray-200 text-base-content py-1">
@@ -17,7 +40,8 @@ export default function  Home() {
       <span className="mx-4 text-lg font-bold text-red-500">You can choose any book you want</span>
 </Marquee>
      <Hero></Hero>
-        <h1 className="font-bold text-3xl my-4">Feature Books </h1>
+     
+        <h1 className="font-bold text-3xl my-4 ">Feature Books </h1>
         <Feature></Feature>
 
            

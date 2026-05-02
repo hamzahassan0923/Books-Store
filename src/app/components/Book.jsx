@@ -9,7 +9,7 @@ const Book = ({ book }) => {
             hover:scale-105 cursor-pointer border-2 border-gray-200">
   <div className="card-body">
    <div className="relative w-full aspect-square">
-     <Image src={book.image_url} sizes="1" alt={book.title} fill className="rounded-lg" />
+     <Image src={book.image_url} sizes="1"  alt={book.title} fill className="rounded-lg" />
    </div>
     <h2 className="card-title">{book.title}</h2>
   

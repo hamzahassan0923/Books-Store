@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="hero bg-base-200 py-10">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <Image src={img} alt="Books" width={400} height={300}></Image>
+    <Image src={img} alt="Books" priority width={400} height={300}></Image>
     
     <div>
       <h1 className="text-5xl font-bold">This is our Books Store</h1>
