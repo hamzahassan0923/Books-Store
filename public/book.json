@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "title": "JavaScript Mastery",
+    "title": "JavaScript Master",
     "author": "David Miller",
     "description": "A complete guide to modern JavaScript, covering fundamentals to advanced concepts for building powerful web applications.",
     "category": "Tech",
     "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/10110415-L.jpg"
+    "image_url": "https://covers.openlibrary.org/b/id/11890123-L.jpg"
   },
   {
     "id": 3,
